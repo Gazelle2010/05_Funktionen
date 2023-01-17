@@ -79,7 +79,7 @@ function getString(firstName, familyName) {
     const GAP = " ";
     let outputStr = "Hallo " + GAP + firstName + GAP + familyName +"!";
     return outputStr; // return sendet Daten a den call zurück
-    console.log("Funktion beendet");
+    // console.log("Funktion beendet"); // nicht erreichbar, da return die Funktion beendet. 
 }
 
 // 2. Funktionalität: string output
